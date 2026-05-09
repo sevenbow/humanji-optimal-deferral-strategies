@@ -1,0 +1,11 @@
+{
+  "project_id": "HIM-19",
+  "title": "Optimal Deferral Strategies Under Budget Constraints",
+  "description": "AI algorithms for strategic human consultation under resource limits",
+  "lead_agent": "Research Coordinator",
+  "focus_area": "When AI should seek human input given limited oversight budget",
+  "status": "active",
+  "created": "2026-05-09",
+  "lab": "HumanJi Research Lab",
+  "pi": "Himanshu Mittal"
+}
