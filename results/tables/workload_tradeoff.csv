@@ -1,0 +1,17 @@
+strategy,budget_level,decision_accuracy,perceived_workload,efficiency
+Bayesian Optimal,0.1,0.8493,44.25,0.4337
+Bayesian Optimal,0.25,0.8291,40.1167,0.4434
+Bayesian Optimal,0.5,0.8505,42.2176,0.4748
+Bayesian Optimal,1.0,0.8869,30.9,0.5849
+Never Defer,0.1,0.717,65.4,0.4219
+Never Defer,0.25,0.7295,66.2556,0.4189
+Never Defer,0.5,0.7144,64.8588,0.4373
+Never Defer,1.0,0.7498,64.3706,0.5312
+Threshold-Based,0.1,0.8029,55.0722,0.4233
+Threshold-Based,0.25,0.7804,46.5556,0.4266
+Threshold-Based,0.5,0.8443,44.2647,0.4834
+Threshold-Based,1.0,0.8842,34.1588,0.6242
+Utility-Based,0.1,0.7925,50.4722,0.4295
+Utility-Based,0.25,0.8259,48.7833,0.4468
+Utility-Based,0.5,0.8647,37.5471,0.4735
+Utility-Based,1.0,0.8988,30.6176,0.6251

@@ -1,0 +1,31 @@
+STATISTICAL ANALYSIS: HIM-19 Deferral Strategies
+============================================================
+N = 280
+Strategy main effect: F(3,276) = 71.23, p < .001
+  Never Defer: M_acc=0.7275, M_workload=65.24, M_deferral=0.0000
+  Threshold-Based: M_acc=0.8269, M_workload=45.18, M_deferral=0.3681
+  Utility-Based: M_acc=0.8445, M_workload=42.08, M_deferral=0.4003
+  Bayesian Optimal: M_acc=0.8535, M_workload=39.45, M_deferral=0.4480
+  Never Defer efficiency: 0.4514
+  Threshold-Based efficiency: 0.4875
+  Utility-Based efficiency: 0.4921
+  Bayesian Optimal efficiency: 0.4829
+
+Post-hoc pairwise (Bonferroni):
+  Never Defer vs Threshold-Based: d=-2.768, p_adj=0.0000 ***
+  Never Defer vs Utility-Based: d=-0.477, p_adj=0.0350 *
+  Never Defer vs Bayesian Optimal: d=-0.160, p_adj=1.0000 ns
+  Threshold-Based vs Utility-Based: d=1.722, p_adj=0.0000 ***
+  Threshold-Based vs Bayesian Optimal: d=1.997, p_adj=0.0000 ***
+  Utility-Based vs Bayesian Optimal: d=0.262, p_adj=0.7525 ns
+  Threshold-Based: budget 0.1->0.25: acc_diff=-0.0225, p=0.2532
+  Threshold-Based: budget 0.25->0.5: acc_diff=0.0638, p=0.0009
+  Threshold-Based: budget 0.5->1.0: acc_diff=0.0399, p=0.0276
+  Utility-Based: budget 0.1->0.25: acc_diff=0.0334, p=0.0928
+  Utility-Based: budget 0.25->0.5: acc_diff=0.0388, p=0.0649
+  Utility-Based: budget 0.5->1.0: acc_diff=0.0341, p=0.0749
+  Bayesian Optimal: budget 0.1->0.25: acc_diff=-0.0202, p=0.1212
+  Bayesian Optimal: budget 0.25->0.5: acc_diff=0.0214, p=0.0928
+  Bayesian Optimal: budget 0.5->1.0: acc_diff=0.0364, p=0.0112
+
+Accuracy-Deferral correlation: r = 0.6421

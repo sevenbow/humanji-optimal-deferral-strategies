@@ -1,0 +1,9 @@
+======================================================================
+STATISTICAL ANALYSIS: HIM-19 Deferral Strategies
+Generated: 2026-05-10 04:29:54
+
+Main effect of Strategy on Accuracy: F(3, 276) = 71.23, p < .001
+  Never Defer: M = 0.7275 (SD = 0.0482)
+  Threshold-Based: M = 0.8269 (SD = 0.0666)
+  Utility-Based: M = 0.8445 (SD = 0.0681)
+  Bayesian Optimal: M = 0.8535 (SD = 0.0433)
